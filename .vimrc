@@ -39,7 +39,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 set hlsearch
 
 " cancel a search with Escape
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+"nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
 " Re-Open Previously Opened File
 nnoremap <Leader><Leader> :e#<CR>
